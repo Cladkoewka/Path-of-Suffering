@@ -1,18 +1,12 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+using Zenject;
 
-public class MenuInstaller : MonoBehaviour
+namespace _Project.CodeBase.Architecture.Installers
 {
-    // Start is called before the first frame update
-    void Start()
+    public class MenuInstaller : MonoInstaller
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        public override void InstallBindings()
+        {
+            
+        }
     }
 }
